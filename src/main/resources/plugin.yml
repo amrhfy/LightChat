@@ -1,0 +1,13 @@
+name: LightChat
+version: '${project.version}'
+main: com.memestealer.lightchat.LightChat
+api-version: 1.18
+authors: [ MEMESTEALER ]
+description: A Simple and Lightweight Chat Format.
+commands:
+  lcreload:
+    description: Reload the configuration & other related yml files.
+  lcaddword:
+    description: Add a new word to filter word yml.
+softdepend:
+  - PlaceholderAPI

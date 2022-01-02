@@ -1,0 +1,20 @@
+Chat-Format:
+  Enabled: true
+  Format: "&e%player_name% &8| &f%message%"
+
+Anti-Caps:
+  Enabled: true
+  Percentage: 60 #Max is 100
+
+Filter-Word:
+  Enabled: true
+  Words: []
+
+
+Messages:
+  Reload: "&6&lCHATS &8| &fSuccessfully reload the config file."
+  Filter-Word:
+    Added: "&6&lCHATS &8| &fSuccesfully added a word: &e%word%"
+    Usage: "&6&lCHATS &8| &fPlease provide a word: &e/lcaddword <word>"
+    Incorrect-Word: "&6&lCHATS &8| &fYou cannot provide a word with whitespace."
+    Warn: "&6&lCHATS &8| &fDo not curse."
